@@ -2,23 +2,23 @@
 
 This is a beginner-friendly project that creates a simple SQL-based reporting system for an e-commerce store.
 
-## 🔧 Features
+##  Features
 - SQL schema with `customers`, `products`, `orders`, and `order_items`
 - Python script to generate revenue reports from SQL queries
 - Exports data to Excel using `pandas`
 
-## 🛠 Tech Stack
+##  Tech Stack
 - SQLite
 - Python (sqlite3, pandas, openpyxl)
 
 
-## 🚀 Project Overview
+##  Project Overview
 
 This project simulates a mini e-commerce analytics system that integrates database design, SQL queries, and Python-based reporting.
 It demonstrates the end-to-end data workflow — from setting up a relational database to extracting insights and generating an automated sales report.
 
 The final output is an Excel report (sales_report.xlsx) that shows total revenue per product.
-## 🗂️ Project Structure
+##  Project Structure
 ├── init_db.py        # Script to create and populate the database
 ├── report.py         # Script to generate sales report
 ├── schema.sql        # Database schema (tables)
@@ -27,7 +27,7 @@ The final output is an Excel report (sales_report.xlsx) that shows total revenue
 ├── sales_report.xlsx # Generated Excel report (output)
 └── README.md         # Project documentation
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 Clone the repository
 https://github.com/6303-naidu/ecommerce-sales-report.git
@@ -44,7 +44,7 @@ Generate the sales report
 python report.py
 The script will create sales_report.xlsx containing revenue by product.
 
-## 🛠️ How It Works
+##  How It Works
 
 Database Creation (init_db.py)
 Connects to SQLite and runs schema.sql to define tables:
@@ -64,17 +64,17 @@ GROUP BY p.name;
 # Fetches results with Pandas
 Saves the report into Excel (sales_report.xlsx)
 
-## 📈 Example Output
+## Example Output
 sales_report.xlsx
 
 product_name	    total_revenue
 Laptop	           800.00
 Headphones	    300.00
-## 🎯 Results
+##  Results
 Successfully built an end-to-end data pipeline for e-commerce analytics.
 Automated generation of Excel sales reports for revenue insights.
 
-## 🧰 Skills & Tools Demonstrated
+##  Skills & Tools Demonstrated
 
 SQL: Schema design, joins, aggregations
 SQLite: Lightweight relational database
@@ -82,7 +82,7 @@ Python: Database connectivity and automation
 Pandas: Data extraction, transformation, and export
 Excel (openpyxl): Business-friendly reporting
 
-## 📌 Use Cases
+##  Use Cases
 Business Intelligence reporting
 Sales performance analysis
 Learning project for SQL + Python integration
